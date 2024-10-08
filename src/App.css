@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+form{
+  background-color: gray;
+  padding: 20px;
+  border-radius: 10px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  gap: 5px;
+}
+
+.input input{
+  padding: 10px;
+}
+
+.agree{
+  display: flex;
+  align-items: center;
+}
+
+.agree p{
+  padding-left: 10px;
+}
+
+.last{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
