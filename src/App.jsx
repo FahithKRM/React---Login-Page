@@ -43,9 +43,9 @@ const App = () => {
         </div>
 
         <div className="last">
-          <p onClick={TogleSign}>{text} ?</p>
+          <p>{text} ?</p>
           <p>
-            <b>{sign}</b>
+            <b onClick={TogleSign}>{sign}</b>
           </p>
         </div>
       </form>
